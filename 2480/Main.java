@@ -36,5 +36,6 @@ public class Main {
 				}
 			}
 		}
+		scanner.close();
 	}
 }
