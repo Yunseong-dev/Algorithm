@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		int a, b, c;
-		a = in.nextInt();
-		b = in.nextInt();
-		c = in.nextInt();
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+		c = scanner.nextInt();
 
 		if (a != b && b != c && a != c) {
 			int max;
