@@ -22,5 +22,6 @@ public class Main {
             ++j;
             i += 3;
         }
+        scanner.close();
     }
 }

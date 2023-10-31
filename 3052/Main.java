@@ -12,6 +12,7 @@ public class Main {
         Set<Integer> set = new HashSet<Integer>(arr);
 
         System.out.println(set.size());
+        scanner.close();
     }
 }
 

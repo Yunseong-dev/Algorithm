@@ -12,5 +12,6 @@ public class Main{
             max = Math.max(max, num);
         }
         System.out.println(min + " " + max);
+        scanner.close();
     }
 }

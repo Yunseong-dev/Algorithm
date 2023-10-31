@@ -26,5 +26,6 @@ public class Main {
         for (int k = 0; k < arr.size(); k++) {
             System.out.print(arr.get(k) + " ");
         }
+        scanner.close();
     }
 }

@@ -18,5 +18,6 @@ public class Main {
 
         double result = ((sum / M) / N) * 100;
         System.out.println(result);
+        scanner.close();
     }
 }

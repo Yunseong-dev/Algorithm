@@ -20,5 +20,6 @@ public class Main {
         for(int arrs: arr){
             System.out.println(arrs + " ");
         }
+        scanner.close();
     }
 }

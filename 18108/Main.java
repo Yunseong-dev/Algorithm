@@ -6,5 +6,6 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		int a = scanner.nextInt();
 		System.out.println(a - 543);
+		scanner.close();
 	}
 }

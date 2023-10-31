@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 
-		Scanner in = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
-		int H = in.nextInt(); // 시
-		int M = in.nextInt(); // 분
-		in.close();
+		int H = scanner.nextInt(); // 시
+		int M = scanner.nextInt(); // 분
+		scanner.close();
 
 		if (M < 45) {
 			H--; // 시(hour) 1 감소

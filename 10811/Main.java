@@ -23,7 +23,7 @@ public class Main {
         for(int arrs: arr){
             System.out.print(arrs + " ");
         }
-
+		scanner.close();
     }
 }
 

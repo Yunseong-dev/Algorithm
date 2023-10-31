@@ -14,6 +14,6 @@ public class Main {
             }
         }
         System.out.println(max + "\n" + j);
-
+        scanner.close();
     }
 }

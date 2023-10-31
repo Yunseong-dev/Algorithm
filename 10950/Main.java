@@ -16,5 +16,6 @@ public class Main {
 		for (int i = 0; i < T; ++i) {
 			System.out.println(arr[i]);
 		}
+		scanner.close();
 	}
 }

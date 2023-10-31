@@ -19,5 +19,6 @@ public class Main {
 		for (int a : arr) {
 			System.out.print(a + " ");
 		}
+		scanner.close();
 	}
 }

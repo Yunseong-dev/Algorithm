@@ -19,5 +19,6 @@ public class Main {
             System.out.println("Case #" + i + ": " + arrs);
             ++i;
         }
+        scanner.close();
     }
 }
