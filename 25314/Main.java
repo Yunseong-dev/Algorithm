@@ -11,5 +11,6 @@ public class Main {
 			System.out.print("long ");
 		}
 		System.out.print("int");
+		scanner.close();
 	}
 }
