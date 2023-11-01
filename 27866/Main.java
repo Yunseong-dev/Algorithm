@@ -9,6 +9,7 @@ public class Main {
         int i = scanner.nextInt() - 1;
 
         System.out.println(str.charAt(i));
+        
         scanner.close();
     }
 }
